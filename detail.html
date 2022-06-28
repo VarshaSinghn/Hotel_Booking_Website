@@ -9,12 +9,12 @@
   <body>
     <header>
       <div>
-        <img
+        <a href="./index.html"><img
           src="./assests/images/logo.png"
           alt="logo"
           height="100px"
           width="150px"
-        />
+        /></a>
         <a href="./login.html"><span>Login</span></a>
       </div>
     </header>
@@ -25,6 +25,21 @@
           alt="Radisson hotel"
         />
         
+      </div>
+      <div>
+        <form action="./payment.html">
+          <label>Adults:</label>
+          <input type="number" value=1 min="1" max="100" /><br>
+          <label>Name:</label>
+          <input type="text" required/><br>
+          <label>From Date:</label>
+          <input type="date" required /><br>
+          <label>To Date:</label>
+          <input type="date" required /><br>
+          <label>Total:</label>
+          <input type="text" disabled /><br>
+          <button type="submit">Book Now</button>
+        </form>
       </div>
       <a href="./payment.html"><p>Book Now</p></a>
       <div>
